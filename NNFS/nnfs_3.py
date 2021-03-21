@@ -1,4 +1,5 @@
-import numpy as np 
+import numpy as np
+
 inputs = [[1.2,5.1,2.1],
         [1.2,5.1,2.1],
         [1.2,5.1,2.1]]
@@ -16,8 +17,6 @@ bias2 = [1,5,3]
 weights3 = [[3.2,2.1,8.7],
             [3.2,2.1,8.7],
             [3.2,2.1,8.7]]
-
-
 bias3 = [1,5,3]
 
 layer1_outputs = np.dot(inputs, np.array(weights).T) + bias
