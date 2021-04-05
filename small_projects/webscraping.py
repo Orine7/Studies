@@ -18,3 +18,4 @@ if __name__ == "__main__":
     automaton = WebAutomaton()
     automaton.setUp()
     automaton.searchSquares(search_site="https://www.youtube.com/", search_element= "search_query")
+    
